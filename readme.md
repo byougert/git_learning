@@ -85,6 +85,9 @@ git pull
 git branch
 列出所有分支，当前分支前面会标一个*号
 
+git branch -vv
+查看所有分支信息，包括关联的upstream信息
+
 git branch -d dev
 删除dev分支，如果dev分支尚未被merge，会报错，可以使用git branch -D dev强行删除
 
